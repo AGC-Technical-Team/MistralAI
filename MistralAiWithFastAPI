@@ -10,7 +10,7 @@ import os
 
 app = FastAPI()
 
-api_key = "R3gzwc9LrUWCLyetZnT5puBhreLVaMrF"
+api_key = ""
 
 def load_audio_file(file_path):
     signal, sample_rate = librosa.load(file_path)
